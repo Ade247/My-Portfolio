@@ -260,8 +260,15 @@ body.hovering .cursor-outline {
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: -0.05em;
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo-img {
+  height: 32px;
+  width: auto;
+  border-radius: 8px;
 }
 
 .logo span {
