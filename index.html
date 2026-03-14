@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Ade | Senior UX/UI & Product Designer</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Adejuyitan Samuel<span>.</span></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle Dark Mode">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-moon">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+          </svg>
+        </button>
+        <a href="#contact" class="btn-primary">Let's Talk</a>
+      </div>
+      <div class="mobile-menu-btn">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Global Background Glows -->
+  <div class="bg-glow-container">
+    <div class="hero-bg-glow glow-1"></div>
+    <div class="hero-bg-glow glow-2"></div>
+    <div class="hero-bg-glow glow-3"></div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid-container">
+        <!-- Left Content -->
+        <div class="hero-content-left">
+          <div class="hero-badge">
+            <span class="wave-emoji">👋</span> Hello, I'm Adejuyitan Samuel
+          </div>
+
+          <h1 class="hero-title">
+            I'm a <span class="role-cycle">UI/UX Designer</span>
+          </h1>
+
+          <p class="hero-description">
+            I create <span class="text-gradient">clean, intuitive, and user-focused</span> digital products, websites,
+            and brand experiences. My designs prioritize <span class="text-gradient">usability, aesthetics</span>, and
+            real-world business impact. I turn complex ideas into <span class="text-gradient">simple and engaging</span>
+            digital solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary btn-large glow-btn-hover">View My Work <span
+                class="arrow">→</span></a>
+            <a href="#contact" class="btn-secondary btn-large">Contact Me</a>
+          </div>
+
+          <!-- Tech Stack Tags -->
+          <div class="tech-stack hero-tech-stack">
+            <span class="tech-pill">Figma</span>
+            <span class="tech-pill">Adobe Illustrator</span>
+            <span class="tech-pill">Adobe Photoshop</span>
+            <span class="tech-pill">React / Next.js</span>
+            <span class="tech-pill">User Research</span>
+            <span class="tech-pill">Wireframing</span>
+            <span class="tech-pill">Prototyping</span>
+            <span class="tech-pill">Web & Mobile UI Design</span>
+            <span class="tech-pill">Branding</span>
+          </div>
+        </div>
+
+        <!-- Right Visual Grid -->
+        <div class="hero-visual-right">
+          <div class="hero-image-container">
+            <img src="/profile.jpg" alt="Adejuyitan Samuel" class="hero-main-image">
+          </div>
+
+          <!-- Hero Social Icons -->
+          <div class="hero-socials">
+            <a href="https://wa.me/message/COT3RJXDG2NCC1" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/adejuyitan-samuel/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="https://www.behance.net/samuelade007" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Behance">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-behance">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18v-12h4.5a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-4.5" />
+                <path d="M3 12l4.5 0" />
+                <path d="M14 13h7a3.5 3.5 0 0 0 -7 0v2a3.5 3.5 0 0 0 6.64 1" />
+                <path d="M16 6l3 0" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/designbyade_?igsh=d3ppZnFwejE3bXdi&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                <path d="M16.11 7.66v.01"/>
+                <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/>
+              </svg>
+            </a>
+            <a href="mailto:olusegunsamuuel247@gmail.com?subject=Portfolio Inquiry" class="social-icon-link" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-mail">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="scroll-indicator">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+      <div class="container about-journey-container">
+        <!-- Decorative Backdrop Text -->
+        <div class="about-backdrop-text" data-speed="0.2">ABOUT</div>
+
+        <div class="about-journey-grid">
+          <!-- Left Side: Bio & Vision -->
+          <div class="about-journey-left">
+            <div class="about-sticky-content">
+              <div class="section-header-left">
+                <span class="section-subtitle">Who I am</span>
+                <h2 class="section-title-large">I balance <span class="text-gradient">aesthetics</span> with <span
+                    class="text-gradient">functionality</span> to solve complex problems.</h2>
+              </div>
+              <div class="about-bio-premium">
+                <p class="lead-text">I’m a UI/UX and product designer focused on creating intuitive, impactful digital
+                  experiences. My work blends user empathy with strategic thinking to design solutions that are both
+                  beautiful and functional.</p>
+                <p>I believe great design isn’t just how it looks, it’s how it works and the value it delivers to users.
+                </p>
+              </div>
+              <div class="about-experience-badge-premium">
+                <div class="badge-ring">
+                  <span class="count">05+</span>
+                </div>
+                <span class="label">Years of<br>Creative<br>Legacy</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side: The Journey (Timeline & Skills) -->
+          <div class="about-journey-right">
+            <!-- Skills Group -->
+            <div class="journey-item" data-aos="fade-up">
+              <div class="journey-marker"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-layers">
+                  <path
+                    d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" />
+                  <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" />
+                  <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" />
+                </svg></div>
+              <div class="journey-content">
+                <h3 class="journey-title text-gradient">Core Expertise</h3>
+                <div class="skill-grid-premium">
+                  <div class="skill-group-premium">
+                    <h4>Design</h4>
+                    <p>Graphic Designer, UI/UX Design, Product Strategy, User Research, Wireframing, Prototyping.</p>
+                  </div>
+                  <div class="skill-group-premium">
+                    <h4>Tools</h4>
+                    <p>Figma, Adobe Creative Suite, Framer, Webflow.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Education Group -->
+            <div class="journey-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="journey-marker"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-graduation-cap">
+                  <path
+                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.58 3.91a2 2 0 0 0 1.66 0z" />
+                  <path d="M7 13.41V17a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-3.59" />
+                </svg></div>
+              <div class="journey-content">
+                <h3 class="journey-title text-gradient">Education</h3>
+                <div class="journey-details">
+                  <div class="detail-card glass-card">
+                    <h4>Bachelor of Science (B.Sc.) in Cybersecurity</h4>
+                    <span class="timeline">Lincoln University College, Malaysia | Feb 2026</span>
+                  </div>
+                  <div class="detail-card glass-card">
+                    <h4>National Innovative Diploma (NID) in Software Engineering</h4>
+                    <span class="timeline">Lincoln College, Abuja | Feb 2024</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience Group -->
+            <div class="journey-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="journey-marker"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                  stroke-linejoin="round" class="lucide lucide-briefcase">
+                  <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                  <rect width="20" height="14" x="2" y="6" rx="2" />
+                </svg></div>
+              <div class="journey-content">
+                <h3 class="journey-title text-gradient">Experience</h3>
+                <div class="journey-details">
+                  <div class="detail-card glass-card">
+                    <div class="detail-card-header">
+                      <h4>Senior UI/UX Designer + Product Designer</h4>
+                      <span class="work-badge remote">Remote</span>
+                    </div>
+                    <span class="timeline">Sleeky Programmers Ltd | Aug 2024 - Present</span>
+                  </div>
+                  <div class="detail-card glass-card">
+                    <div class="detail-card-header">
+                      <h4>Product Designer</h4>
+                      <span class="work-badge remote">Remote</span>
+                    </div>
+                    <span class="timeline">Andreams Global Ltd | 2023 - 2024</span>
+                  </div>
+                  <div class="detail-card glass-card">
+                    <div class="detail-card-header">
+                      <h4>Graphic Designer</h4>
+                      <span class="work-badge remote">Remote</span>
+                    </div>
+                    <span class="timeline">PrestigeShield Ltd | 2022 - 2023</span>
+                  </div>
+                  <div class="detail-card glass-card">
+                    <div class="detail-card-header">
+                      <h4>UI/UX + Graphic Designer</h4>
+                      <span class="work-badge hybrid">Hybrid</span>
+                    </div>
+                    <span class="timeline">Niphal International | 2021 - 2022</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Case Studies</h2>
+          <span class="section-subtitle">Selected Work</span>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card stacked" data-title="OneFarm Tech UI Design"
+            data-description="OneFarm connects farmers directly with buyers to streamline agricultural transactions. This project focused on creating a seamless mobile experience for users in rural areas with low connectivity, emphasizing clear navigation and bold visual hierarchy."
+            data-tech="UX/UI Design, AgTech, Web App, Figma"
+            data-link="https://www.behance.net/gallery/222434227/OneFarm-UI-Enhancing-Agricultural-Transactions">
+            <div class="project-image-wrapper">
+              <img src="/Thumbnail.jpg" alt="OneFarm Tech UI Design">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>OneFarm Tech UI Design</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">UX/UI Design</span>
+                <span class="tech-pill">Web App</span>
+                <span class="tech-pill">Figma</span>
+              </div>
+              <p>OneFarm connects farmers directly with buyers to streamline agricultural transactions.</p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card stacked" data-title="Salman Global Properties Ltd Brand Identity"
+            data-description="This identity was crafted with timelessness and adaptability at its core. The mark is distinct enough to stand on its own, while the full lockup (symbol + wordmark) reinforces the brand’s authority and professionalism."
+            data-tech="Branding, Adobe Photoshop, Adobe Illustrator" data-link="https://example.com/project2">
+            <div class="project-image-wrapper">
+              <img src="/Salman.jpg" alt="SGPL Brand Identity">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>SGPL Brand Identity</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Branding</span>
+                <span class="tech-pill">Adobe Photoshop</span>
+                <span class="tech-pill">Adobe Illustrator</span>
+              </div>
+              <p>Salman Global Properties Ltd brand identity was crafted with timelessness and adaptability at its core.
+              </p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card stacked" data-title="Busy Bites Brand Design"
+            data-description="Busy Bites is not just a food brand, it’s a lifestyle companion for the always-on generation. I crafted a visual identity and tone that speaks to go-getters who crave efficiency and quality. This branding project focuses on capturing that energy with bold colors, dynamic layouts, and a strong voice that bites back."
+            data-tech="Branding, Adobe Photoshop, Adobe Illustrator"
+            data-link="https://www.behance.net/gallery/230162847/BUSY-BITES-BRAND-IDENTITY ">
+            <div class="project-image-wrapper">
+              <img src="/Busy-Bites.jpg" alt="Busy Bites Brand Design">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>Busy Bites Brand Design</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Branding</span>
+                <span class="tech-pill">Adobe Photoshop</span>
+                <span class="tech-pill">Adobe Illustrator</span>
+              </div>
+              <p>Busy Bites is not just a food brand, it’s a lifestyle companion for the always-on generation.</p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card stacked" data-title="Votely Landing Page UI"
+            data-description="Votely is a reimagined voting solution built for transparency, speed, and trust. It’s more than just a digital ballot—Votely simplifies the democratic process by providing a secure, accessible, and intuitive platform for casting and counting votes. This branding project reflects the evolution of the platform into a modern civic tool that empowers every voice."
+            data-tech="UI Design, Web App, Figma" data-link="https://example.com/project4">
+            <div class="project-image-wrapper">
+              <img src="/Votely.jpg" alt="Votely Landing Page UI">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>Votely Landing Page UI</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">UI Design</span>
+                <span class="tech-pill">Web App</span>
+              </div>
+              <p>Votely is a reimagined voting solution built for transparency, speed, and trust.</p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- View More Button -->
+        <div class="view-more-container">
+          <button id="view-more-btn" class="btn-secondary">
+            View more
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="chevron-down">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Hidden Projects Grid (revealed on click) -->
+        <div class="projects-grid hidden-projects-container" style="margin-top: 2rem; display: none;">
+          <!-- Project 5 (Dummy) -->
+          <div class="project-card stacked" data-title="Ama Confectionery Brand Design"
+            data-description="Welcome to Ama Confectionery, where every bite is a celebration of love, tradition, and craftsmanship. From delicate pastries to indulgent treats, we create confections that not only taste amazing but tell a story—of warmth, joy, and sweet memories. This brand identity captures the charm and heart of Ama’s kitchen, wrapped in soft colors and graceful design."
+            data-tech="Branding, Adobe Photoshop, Adobe Illustrator"
+            data-link="https://www.behance.net/gallery/230189537/AMA-CONFECTIONERY-BRAND-IDENTITY">
+            <div class="project-image-wrapper">
+              <img src="/Ama.jpg" alt="Ama Confectionery Brand Design">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>Ama Confectionery Brand Design</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Branding</span>
+                <span class="tech-pill">Adobe Photoshop</span>
+                <span class="tech-pill">Adobe Illustrator</span>
+              </div>
+              <p>Welcome to Ama Confectionery, where every bite is a celebration of love, tradition, and craftsmanship.
+              </p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+
+          <!-- Project 6 (Dummy) -->
+          <div class="project-card stacked" data-title="Sleeky Programmers Landing Page UI"
+            data-description="A modern landing page UI design for Sleeky Programmers—a software company driven by excellence and innovation. The design blends clean aesthetics with intuitive navigation, reflecting the brand’s mission to craft solutions that empower businesses and users alike.​​​​​​​"
+            data-tech="UI Design, Landing Page, Figma"
+            data-link="https://www.behance.net/gallery/233484583/Sleeky-Programmers-Landing-Page">
+            <div class="project-image-wrapper">
+              <img src="/Sleeky.jpg" alt="Sleeky Programmers Landing Page UI">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>Sleeky Programmers Landing Page UI</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">UI Design</span>
+                <span class="tech-pill">Landing Page</span>
+                <span class="tech-pill">Figma</span>
+              </div>
+              <p>A modern landing page UI design for Sleeky Programmers—a software company driven by excellence and
+                innovation.</p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+
+          <!-- Project 7 (Dummy) -->
+          <div class="project-card stacked" data-title="B'Banks Autos Brand Identity"
+            data-description="B'Banks Autos is a premier automotive service center dedicated to providing top-tier care and maintenance for all vehicle makes and models. With a commitment to excellence, precision, and customer satisfaction, B'Banks Autos has established itself as a trusted name in the automotive industry. Our team of experienced technicians and state-of-the-art facilities ensure that every vehicle receives the highest standard of service, from routine maintenance to complex repairs."
+            data-tech="Branding, Adobe Photoshop, Adobe Illustrator"
+            data-link="https://www.behance.net/gallery/227265613/BBANKS-AUTOS-VISUAL-IDENTITY">
+            <div class="project-image-wrapper">
+              <img src="/BBanks.jpg" alt="B'Banks Autos Brand Identity">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>B'Banks Autos Brand Identity</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Branding</span>
+                <span class="tech-pill">Adobe Photoshop</span>
+                <span class="tech-pill">Adobe Illustrator</span>
+              </div>
+              <p>B'Banks Autos is a premier automotive service center dedicated to providing top-tier care and
+                maintenance for all vehicle makes and models.</p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+
+          <!-- Project 8 (Dummy) -->
+          <div class="project-card stacked" data-title="To-Do List App UI"
+            data-description="A clean, intuitive to-do list app UI designed to help users organize their tasks and manage their time effectively. The interface features a minimalist design with a focus on clarity and ease of use, making it simple to add, track, and complete daily tasks."
+            data-tech="UI Design, Mobile App, Figma"
+            data-link="https://www.behance.net/gallery/222476297/TO-DO-LIST-APP-UI-DESIGN">
+            <div class="project-image-wrapper">
+              <img src="/To-Do.jpg" alt="To-Do List App UI">
+              <div class="project-overlay-link">
+                <span class="view-btn-circle">↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>To-Do List App UI</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">UI Design</span>
+                <span class="tech-pill">Mobile App</span>
+                <span class="tech-pill">Figma</span>
+              </div>
+              <p>A clean, intuitive to-do list app UI designed to help users organize their tasks and manage their time
+                effectively.</p>
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Services</h2>
+          <span class="section-subtitle">What I do</span>
+        </div>
+        <div class="services-bento-grid">
+          <!-- Service 1: UI/UX Design -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-layout-template">
+                <rect width="18" height="7" x="3" y="3" rx="1" />
+                <rect width="9" height="7" x="3" y="14" rx="1" />
+                <rect width="5" height="7" x="16" y="14" rx="1" />
+              </svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Creating intuitive, user-centered interfaces that combine striking aesthetics with seamless usability.
+            </p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Wireframing & Prototyping</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>High-Fidelity Visual Design</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Interactive Mockups</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Product Design -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-box">
+                <path
+                  d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+                <path d="m3.3 7 8.7 5 8.7-5" />
+                <path d="M12 22V12" />
+              </svg>
+            </div>
+            <h3>Product Design</h3>
+            <p>From concept to launch, designing holistic product experiences that solve real user problems and drive
+              business growth.</p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>End-to-End Product Strategy</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>User Research & Testing</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Feature Ideation & Mapping</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3: Website & Landing Page Design -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-monitor">
+                <rect width="20" height="14" x="2" y="3" rx="2" />
+                <line x1="8" x2="16" y1="21" y2="21" />
+                <line x1="12" x2="12" y1="17" y2="21" />
+              </svg>
+            </div>
+            <h3>Website & Landing Page Design</h3>
+            <p>Crafting high-converting, visually stunning web experiences that captivate visitors and clearly
+              communicate your value.</p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Responsive Web Design</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Conversion Optimization Focus</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Engaging Micro-interactions</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 4: Mobile App Design -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-smartphone">
+                <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+                <path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3>Mobile App Design</h3>
+            <p>Designing modern iOS and Android applications that feel native, responsive, and provide a delightful user
+              journey.</p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>iOS & Android Guidelines</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Mobile UX Best Practices</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>App Store Aesthetic Polish</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 5: Brand Identity Design -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-feather">
+                <path
+                  d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z" />
+                <path d="m16 8-5 5" />
+                <path d="m11 16-5 5" />
+              </svg>
+            </div>
+            <h3>Brand Identity Design</h3>
+            <p>Building cohesive and memorable brand identities that resonate with your target audience and stand the
+              test of time.</p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Logo Design & Mark Creation</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Typography & Color Palette</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Comprehensive Brand Guidelines</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 6: Graphic Design -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-pen-tool">
+                <path
+                  d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z" />
+                <path
+                  d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L11 18" />
+                <path d="m2.3 2.3 7.286 7.286" />
+                <circle cx="11" cy="11" r="2" />
+              </svg>
+            </div>
+            <h3>Graphic Design</h3>
+            <p>Producing compelling visual communications spanning marketing materials, social media graphics, and
+              digital assets.</p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Social Media & Marketing Assets</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Layout & Print Design</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Custom Illustrations & Icons</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 7: Web Development -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-code">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+            </div>
+            <h3>Web Development</h3>
+            <p>Bringing designs to life with clean, efficient, and scalable code that performs beautifully across all
+              modern browsers.</p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Front-end Web Development</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Pixel-Perfect Implementation</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Performance & SEO Optimization</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 8: Mobile Development -->
+          <div class="service-card dark-feature-card">
+            <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-terminal">
+                <polyline points="4 17 10 11 4 5" />
+                <line x1="12" x2="20" y1="19" y2="19" />
+              </svg>
+            </div>
+            <h3>Mobile Development</h3>
+            <p>Developing high-performance, native-like mobile applications for iOS and Android platforms to engage
+              users on the go.</p>
+            <div class="service-list">
+              <div class="service-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>React Native Development</span>
+              </div>
+              <div class="service-item" style="transition-delay: 100ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Smooth Native Animations</span>
+              </div>
+              <div class="service-item" style="transition-delay: 200ms;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>App Store Deployment</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="contact-card glass-card">
+          <div class="contact-content">
+            <h2 class="contact-title">Let's build something amazing together.</h2>
+            <p class="contact-text">I’m always open to new collaborations and interesting challenges. Let’s discuss how
+              my skills can help you achieve your goals.</p>
+            <a href="mailto:olusegunsamuuel247@gmail.com?subject=Portfolio Inquiry" class="btn-primary btn-large glow-btn">Send a Message</a>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/adejuyitan-samuel/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.behance.net/samuelade007" target="_blank" rel="noopener noreferrer">Behance</a>
+              <a href="https://www.instagram.com/designbyade_?igsh=d3ppZnFwejE3bXdi&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 Adejuyitan Samuel. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+
+  <!-- Project Modal -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-container">
+      <button class="modal-close" aria-label="Close Modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-content">
+        <div class="modal-image-container">
+          <img src="" alt="Project Preview" id="modal-image">
+        </div>
+
+        <div class="modal-details">
+          <h2 id="modal-title" class="text-gradient">Project Title</h2>
+          <div class="modal-tech-stack" id="modal-tech">
+            <!-- Tech pills added dynamically -->
+          </div>
+
+          <div class="modal-info-section">
+            <h3 class="modal-subtitle">About the Project</h3>
+            <p id="modal-description">Project description goes here...</p>
+          </div>
+
+          <div class="modal-actions">
+            <a href="#" target="_blank" id="modal-link" class="btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-globe">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                </path>
+              </svg>
+              View Project
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
